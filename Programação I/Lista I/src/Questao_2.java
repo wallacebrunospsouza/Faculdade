@@ -3,8 +3,8 @@ import java.util.Scanner;
 /*
  Entrada: N1
  Procssamento:
- sucessor = N1 + 1
- antecessor = N1 - 1
+    sucessor = N1 + 1
+    antecessor = N1 - 1
  Saída: sucessor, antecessor
  uso de memória: N1, sucessor, antecessor
  */
