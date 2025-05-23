@@ -11,16 +11,18 @@ public class Questao_1 {
     public static void main(String[] args) throws Exception {
      Scanner entrada = new Scanner(System.in);
 
+     double N1, N2, N3, med;
+
         System.out.println("Escreva o primeiro número:");
-        Float N1 = entrada.nextFloat();
+        N1 = entrada.nextDouble();
 
         System.out.println("Escreva o segundo número:");
-        Float N2 = entrada.nextFloat();
+        N2 = entrada.nextDouble();
 
         System.out.println("Escreva o terceiro número:");
-        Float N3 = entrada.nextFloat();
+        N3 = entrada.nextDouble();
 
-        Float med = N1 + N2 + N3 / 3;
+         med = (N1 + N2 + N3) / 3;
 
         System.out.println("A média é: " + med);
 
