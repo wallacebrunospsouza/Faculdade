@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/*Entrada: nome, peso, idade, fumante
+ Processamentos: 
+ Saída: nome, peso, idade, fumante
+ Memoria: nome, peso, idade, fumante, teclado
+ */
+
 public class conversacao_user {
    public static void main(String []args){
      String nome;
