@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
-public class Q1 {
+/*
+ Entrada: N1, N2, N3
+ Processamento: med = (N1 + N2 + N3)/3
+ sáida: med
+ uso de memória: N1, N2, N3, med
+ */
+
+public class Questao_1 {
     public static void main(String[] args) throws Exception {
      Scanner entrada = new Scanner(System.in);
 
