@@ -21,8 +21,8 @@ public class conversacao_user {
     fumante = teclado.nextBoolean();
    
      //Usando Println
-     System.out.println("Meu nome é" +nome+ "minha idade é" +idade+ "anos");
-     System.out.println ("Peso" +peso+ "kg e tabagista" +fumante);
+     System.out.println("Meu nome é" +nome+ " minha idade é " +idade+ " anos");
+     System.out.println ("Peso " +peso+ " kg e tabagista " +fumante);
      
       
    }
