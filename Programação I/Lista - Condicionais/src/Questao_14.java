@@ -2,17 +2,21 @@ import java.util.Scanner;
 
 public class Questao_14 {
     public static void main(String[] args){
-        int n1, n2, n3;
+        int num, casa_1, casa_2, casa_3, num2;
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Escreva seus três números:");
-        n1 = in.nextInt();
-        n2 = in.nextInt();
-        n3 = in.nextInt();
+        System.out.println("Escreva seu número:");
+        num = in.nextInt();
 
-        if (n1 == n3){
+        casa_1 = num%10;
+        casa_2 = casa_1%10;
+        casa_3 = casa_2%10;
+        num2 = (casa_1*1) + (casa_2*10) + (casa_3*100);
+
+
+        if (num == num2){
             System.out.println("Seu número é um Palíndromo");
-        } else{
+        } else {
             System.out.println("Seu número não é um Palíndormo");
             in.close();
         }
