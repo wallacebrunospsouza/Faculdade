@@ -17,7 +17,13 @@ public class Questao_14 {
         casa_3 = num%10;
         num = num/10;
 
-        
+        if(casa_1 == casa_3){
+            System.out.println("é palíndromo");
+        } else {
+            System.out.println("Não é palíndromo");
+        }
+
+
 
 
 
