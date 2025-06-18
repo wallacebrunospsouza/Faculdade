@@ -11,8 +11,7 @@ Este repositório reúne códigos e projetos desenvolvidos ao longo da minha for
 
 ---
 
-## 🧰 Tecnologias e Ferramentas
+## 🧰 Tecnologias
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
