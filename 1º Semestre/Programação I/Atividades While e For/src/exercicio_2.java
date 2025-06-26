@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class exercicio_2 {
     public static void main(String[] args) {
         int soma = 0, num, qtd;
+        double media;
         Scanner in = new Scanner(System.in);
 
         System.out.print("Escreva a quantidade de números que ele somara: ");
@@ -15,6 +16,8 @@ public class exercicio_2 {
             System.out.println(soma + " ");
 
         }
+        media = soma / num;
+        System.out.printf("\nE a média é: %.2f", media);
     }
 
 }
