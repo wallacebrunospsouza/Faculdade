@@ -7,13 +7,13 @@ public class exercicio_2 {
 
         System.out.print("Escreva a quantidade de números que ele somara: ");
         qtd = in.nextInt();
-         System.out.println("\n Tabelinha dos números somados");
+        System.out.println("\nTabelinha dos números somados");
 
         for (num = 1; num <= qtd; num++) {
             System.out.print(num + " | ");
             soma += num; // soma acumulativa
             System.out.println(soma + " ");
-            
+
         }
     }
 
