@@ -8,16 +8,13 @@ public class exercicio_2 {
 
         System.out.print("Escreva a quantidade de números que ele somara: ");
         qtd = in.nextInt();
-        System.out.println("\nTabelinha dos números somados");
 
         for (num = 1; num <= qtd; num++) {
-            System.out.print(num + " | ");
             soma += num; // soma acumulativa
-            System.out.println(soma + " ");
-
         }
-        media = soma / num;
-        System.out.printf("\nE a média é: %.2f", media);
+        media = (double) (soma) / num;
+        System.out.printf("\nA soma dos %d primeiros números é: %d\n", qtd, soma);
+        System.out.printf("E a média é: %.2f", media);
     }
 
 }
