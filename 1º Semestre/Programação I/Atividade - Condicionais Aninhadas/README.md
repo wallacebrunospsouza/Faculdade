@@ -1,18 +1,7 @@
-## Getting Started
+<h2 aling center>Estruturas de repetição aninhadas</h2>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+dizemos que uma estrutura de repetição é aninhada quando ela faz parte do bloco de comandos de outra estrutura de repetição. A grooso modo:
+- For dentro de for, While ou  do-while;
+- While dentro do do-while ou for e double;
+- Do-while dentro do while ou for e double.
