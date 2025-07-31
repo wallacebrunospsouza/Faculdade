@@ -28,20 +28,25 @@ public class Questao_8 {
             cinc = cinc + 1;
            }
     }
+    System.out.print ("\n");
+    System.out.print ("Tabela de Frquências Absoluta ");
     for (int i = 1; i <= 1; i++) {
-        System.out.print("0 |");
-        System.out.print("1 |");
-        System.out.print("2 |");
-        System.out.print("3 |");
-        System.out.print("4 |");
-        System.out.print("5 |");
+        System.out.print ("\n");
+        System.out.print("0  |");
+        System.out.print("1  |");
+        System.out.print("2  |");
+        System.out.print("3  |");
+        System.out.print("4  |");
+        System.out.print("5 ");
+        System.out.print ("\n");
+
         for (int j = 1; j <= i; j++) {
-            System.out.println("|"+ zero);
-            System.out.print("|"+ um);
-            System.out.print("|"+ dois);
-            System.out.print("|"+ tres);
-            System.out.print("|"+ quat);
-            System.out.print("|"+ cinc);
+            System.out.print(""+ zero+ "º");
+            System.out.print(" |"+ um+"º");
+            System.out.print(" |"+ dois+"º");
+            System.out.print(" |"+ tres+"º");
+            System.out.print(" |"+ quat+"º");
+            System.out.print(" |"+ cinc+"º");
         }
         System.out.println();
 
