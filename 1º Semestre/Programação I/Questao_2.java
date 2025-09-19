@@ -1,42 +1,33 @@
+import java.util.Scanner;
 
-import java.util.Random;
+/**
+ * Escreva a descrição da classe Questao_1 aqui.
+ * 
+ * @author Wallace Bruno 
+ * @version 18/09/2025
+ */
 
 public class Questao_2 {
     public static void main(String[] args) {
-        Random ale = new Random();
-        double m[][] = new double[3][5];
-        double soma[] = new double [5];
-        int maior=0;
+        Scanner in = new Scanner(System.in);
+        float numero;
+        System.out.println("Escreva um número: ");
+        numero = in.nextFloat();
 
-        for(int i=0; i <m.length; i++){
-            for(int j=0; j<m[i].length; j++){
-                m[i][j] = ale.nextInt(11);
-               
-            }
-        }
-
-        System.out.println("Matriz original");
-        for(int i=0; i <m.length; i++){
-            System.out.println(" ");
-            System.out.print(i+1 +"[");
-            for(int j=0; j<m[i].length; j++){
-                System.out.print(m[i][j]+"  ");
-
-            }
-        }
-    
-        System.out.println("\n\nMatriz Somada");
-        for(int i=0; i <m.length; i++){
-            System.out.println(" ");
-            System.out.print(i+1 +"[");
-            for(int j=0; j<m[i].length; j++){
-                System.out.print(m[i][j]+"  ");
-
-            }
-        }
-
-
-
-        
+        teste(numero);
     }
+
+    public static float teste(float num){
+        if(num < 0){
+            System.out.println("Seu número é negativo!");
+        } else if(num == 0){
+            System.out.println("Seu número é nulo!");
+        }else{
+            System.out.println("Seu número é positivo!");
+        }
+        
+        return num;
+    }
+
+
 }
