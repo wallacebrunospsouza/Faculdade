@@ -1,49 +1,48 @@
 
-import java.util.Random;
+/**
+ * Escreva a descrição da classe Questao_1 aqui.
+ * 
+ * @author Wallace Bruno 
+ * @version 18/09/2025
+ */
+ 
+ import java.util.Scanner;
+ public class Questao_1{
+         
+     public static void main(String[] args){
+        int Num;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Escreva um número de um a 4");
+        Num = in.nextInt();
+        mes(Num);
 
-public class Questao_1{
-    public static void main(String[] args){
-        int mat[][] = new int[2][2];
-        int mult[][] = new int[2][2];
-        int maior =0;
-        Random ale = new Random();
+     
+     }
+     
+     public static int mes(int N){
+         switch (N) {
+            case 1:
+                System.out.println("Janeiro");
+                break;
 
-        for (int i = 0; i < mat.length; i++) {
-            for(int j = 0; j < mat[i].length; j++){
-                mat[i][j] = ale.nextInt(11);
-                if(i== 0 && j== 0){
-                    maior = mat[i][j];
-                } else if(mat[i][j] > maior){
-                    maior = mat[i][j];
-                }
-            }
-        }
+                case 2:
+                System.out.println("Fevereiro");
+                break;
 
+                case 3:
+                System.out.println("Março");
+                break;
 
-        for (int i = 0; i < mat.length; i++) {
-            for(int j = 0; j < mat[i].length; j++){
-                mult[i][j] = mat [i][j]*maior;
-            }            
-        }
+                case 4:
+                System.out.println("Abril");
+                break;
 
-        System.out.print("\n");
-        System.out.println("Matrix Inicial");
-        for (int i = 0; i < mat.length; i++) {
-            for(int j = 0; j < mat[i].length; j++){
-                System.out.print(mat[i][j]+ "|");
-            }
-            
-        }
-
-        System.out.print("\n");
-        System.out.println("Matrix Multiplicada");
-                for (int i = 0; i < mat.length; i++) {
-                    for(int j = 0; j < mat[i].length; j++){
-                        System.out.print(mult[i][j]+ "|");
-                    }
-                    
-                }
-
-    }
-}
-
+                case 5:
+                System.out.println("ERRO!");
+                break;
+         }
+                  return N;
+             }
+             
+         }
+        
