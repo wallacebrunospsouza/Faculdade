@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Escreva a descrição da classe Questao_1 aqui.
@@ -5,44 +6,28 @@
  * @author Wallace Bruno 
  * @version 18/09/2025
  */
- 
- import java.util.Scanner;
- public class Questao_1{
-         
-     public static void main(String[] args){
-        int Num;
+
+public class Questao_1 {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Escreva um número de um a 4");
-        Num = in.nextInt();
-        mes(Num);
+        float numero;
+        System.out.println("Escreva um número: ");
+        numero = in.nextFloat();
 
-     
-     }
-     
-     public static int mes(int N){
-         switch (N) {
-            case 1:
-                System.out.println("Janeiro");
-                break;
+        teste(numero);
+    }
 
-                case 2:
-                System.out.println("Fevereiro");
-                break;
-
-                case 3:
-                System.out.println("Março");
-                break;
-
-                case 4:
-                System.out.println("Abril");
-                break;
-
-                case 5:
-                System.out.println("ERRO!");
-                break;
-         }
-                  return N;
-             }
-             
-         }
+    public static float teste(float num){
+        if(num < 0){
+            System.out.println("Seu número é negativo!");
+        } else if(num == 0){
+            System.out.println("Seu número é nulo!");
+        }else{
+            System.out.println("Seu número é positivo!");
+        }
         
+        return num;
+    }
+
+
+}

@@ -7,15 +7,15 @@ public class Questao_3 {
 
         System.out.println("Escreva um número: ");
         numero = in.nextInt();
-        isZero(numero);
+        isEven(numero);
     }
 
-    static float isZero(float num){
-        if(num != 0){
-            System.out.println("Relaxa pae, seu número não é nulo");
-        } else{
-            System.out.println("Vishe fio, é nulo");
-        }
-   return num;
-}
+   public static void isEven(int num){
+    if(num % 2 == 0){
+        System.out.println("Seu número é par");
+    }else{
+        System.out.println("É ímpar");
+    }
+    }
+
 }
